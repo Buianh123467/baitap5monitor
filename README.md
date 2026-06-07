@@ -51,6 +51,7 @@ Bước 3 (Trên Máy chủ thật): Nạp lại các file Image vào hệ thố
 II Thực hành 
 
 cấu trúc dự án 
+
 <img width="353" height="316" alt="Image" src="https://github.com/user-attachments/assets/759ac0f1-9b85-46b9-ae37-d4d4011f2a15" />
 
 cấu hình APP.PY
