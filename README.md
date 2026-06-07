@@ -51,14 +51,7 @@ Bước 3 (Trên Máy chủ thật): Nạp lại các file Image vào hệ thố
 II Thực hành 
 
 cấu trúc dự án 
-
-myapp/
-├── docker-compose.yml
-├── nginx/
-│   └── default.conf
-└── frontend/
-    ├── index.html
-    └── app.js
+<img width="353" height="316" alt="Image" src="https://github.com/user-attachments/assets/759ac0f1-9b85-46b9-ae37-d4d4011f2a15" />
 
 cấu hình APP.PY
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/1322c63a-e2ea-40a0-b4d8-a1d4ffd052d5" />
@@ -74,6 +67,44 @@ cấu hình docker compose.yml
 
 chạy lệnh docker compose up -d khởi chạy hệ thống 
 <img width="1160" height="640" alt="Image" src="https://github.com/user-attachments/assets/3d439249-07ce-4a51-8c68-a5e02bf76163" />
+
+Vào trình duyệt để cấu hình Node-RED bằng giao diện kéo thả.
+
+Cài đặt thư viện phụ trợ trong Node-RED:
+
+Vào góc phải trên cùng -> Manage palette -> Thẻ Install -> Tìm và cài các nod
+
+node-red-node-mysql (Kết nối MariaDB)
+
+node-red-contrib-influxdb (Kết nối InfluxDB)
+
+node-red-contrib-telegrambot (Gửi tin nhắn Telegram)
+
+<img width="1327" height="614" alt="Image" src="https://github.com/user-attachments/assets/784c280b-7b3e-4149-95d5-2065e63e0260" />
+
+cấu hình 
+<img width="1332" height="616" alt="Image" src="https://github.com/user-attachments/assets/68067f63-59ee-491c-9b96-549a98143a5b" />
+
+<img width="1357" height="671" alt="Image" src="https://github.com/user-attachments/assets/02d61b0b-4350-4852-80a8-615d18fc3f3d" />
+
+truy cập  Grafana
+
+vào mục Connections → Data Sources → Chọn InfluxDB.
+
+<img width="1332" height="667" alt="Image" src="https://github.com/user-attachments/assets/9e4a6325-973b-4b58-90ea-7eedf1a871d0" />
+
+Tạo một Group Telegram mới
+
+<img width="1284" height="2552" alt="Image" src="https://github.com/user-attachments/assets/3f45b703-ab56-495e-bf8e-2bf5d907f230" />
+
+Kéo thêm các Node sau từ đầu ra của Node Function.
+
+Bước 1: Kéo và cấu hình Node switch
+
+Bước 2: Cấu hình node switch
+
+<img width="873" height="585" alt="Image" src="https://github.com/user-attachments/assets/a18b3e68-a629-44b8-94cd-6f10bf0687a0" />
+
 
 
 
